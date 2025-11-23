@@ -17,7 +17,7 @@ function CollegeApply() {
   const [residency, setResidency] = useState("In-State");
 
   // Majors
-  const majors = ["Composition/Conducting", "Stage Direction", "Stage Writing", "Music Studies", "Recording Technology"];
+  const majors = ["Composition/Conducting", "Stage Direction", "Acting", "Music Theory", "Recording Technology"];
   const [selectedMajor, setSelectedMajor] = useState("");
 
   // Portal visibility
