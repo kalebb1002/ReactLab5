@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b6e8fd;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the application */
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h3 {
+  color: #34495e;
+}
+
+/* Form inputs */
+input[type="text"], select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+/* Portal popup styling */
+.portal-popup {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border: 2px solid #2c3e50;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.portal-popup button {
+  margin-top: 15px;
+}
